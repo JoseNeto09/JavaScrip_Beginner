@@ -1,12 +1,11 @@
-document.getElementById('loan-form').addEventListener('submit', calculateResults);
-
 function calculateResults(e){
     console.log('Calculating...');
+    document.getElementById('loan-form').addEventListener('submit, calculateResults');
 
     // UI Vars
     const amount = document.getElementById('amount');
     const interest = document.getElementById('interest');
-    const year = document.getElementById('year');
+    const year = document.getElementById('years');
     const monthlyPayment= document.getElementById(',monthly-payment');
     const totalPayment = document.getElementById('total-payment');
     const totalInterest = document.getElementById('total-interest');
